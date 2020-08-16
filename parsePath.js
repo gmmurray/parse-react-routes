@@ -1,3 +1,4 @@
+// Provide a react router pathname, returns the paths as an array of strings.
 export const parsePath = (pathname) => {
   const paths = [];
   const breakString = (pathname) => {
